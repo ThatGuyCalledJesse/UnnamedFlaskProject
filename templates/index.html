@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/index.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/bootstrap.min.css') }}">
     <title>Homepage</title>
 </head>
-<body>
-    <h1>Hello World!</h1>
+<body class="position-relative w-100 h-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">UnnamedFlaskProject</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="card text-center">
+            <h5 class="card-title font-weight-bold">Welcome to UnnamedFlaskProject!</h5>
+            <p>I have no idea what I want to do with this project yet.</p>
+        </div>
+    </div>
 </body>
 </html>
