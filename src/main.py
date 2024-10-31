@@ -1,7 +1,7 @@
 from flask import Flask,render_template
 import os
 
-app = Flask(__name__, static_folder="static")
+app = Flask(__name__, static_folder="static", template_folder=f"{os.getcwd()}/templates")
 
 print(os.getcwd())
 
